@@ -1,0 +1,40 @@
+#wrapper {
+	font-size: 13px;
+	font-style: italic;
+	font-family: Courier New;
+	margin-left: 20px;
+	width: 150px;
+	text-transform: lowercase;
+}
+
+#hello, #wide {
+	margin-top: -20px;
+}
+
+#wide {
+	width: 300px;
+}
+
+/*==================================*/
+
+.header {
+	color: red;
+	margin-top: 50px;
+	text-transform: uppercase;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+/*==================================*/
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#redlink {
+	color: red;
+}
