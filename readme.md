@@ -1,0 +1,1 @@
+I know it's not much, the most basic of HTML and CSS. But even though I do enjoy minimalism, it's bound to grow sometime in the future. And reviewing changes is always fun, that's why this is here :)
