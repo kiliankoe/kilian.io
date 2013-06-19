@@ -1,17 +1,14 @@
-#wrapper {
+.wrapper {
 	font-size: 13px;
 	font-style: italic;
 	font-family: Courier New;
 	margin-left: 20px;
 	width: 150px;
 	text-transform: lowercase;
-}
-
-#hello, #wide {
 	margin-top: -20px;
 }
 
-#wide {
+.wide {
 	width: 300px;
 }
 
