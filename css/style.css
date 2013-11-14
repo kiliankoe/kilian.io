@@ -12,6 +12,10 @@
 	width: 300px;
 }
 
+.nolowercase {
+	text-transform: none;
+}
+
 /*==================================*/
 
 .header {
