@@ -6,22 +6,33 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
 	</head>
 
+	<!-- Piwik -->
+	<script type="text/javascript">
+	  var _paq = _paq || [];
+	  _paq.push(['trackPageView']);
+	  _paq.push(['enableLinkTracking']);
+	  (function() {
+	    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://koeltzs.ch/analytics/";
+	    _paq.push(['setTrackerUrl', u+'piwik.php']);
+	    _paq.push(['setSiteId', 1]);
+	    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+	    g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+	  })();
+
+	</script>
+	<noscript><p><img src="http://koeltzs.ch/analytics/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+	<!-- End Piwik Code -->
+
+	<body>
 	<div class="wrapper">
 			<p class="header">Hallo*</p>
 			<p>Ich bin Kilian, Student der Medieninformatik an der TU Dresden.</p>
-		<div id="projects">
-			<p class="header">Projekte*</p>
-			<ul>
-				<li><a href="3d.html">letzte render</a></li>
-				<li><a href="https://github.com/kiliankoe">GitHub</a></li>
-				<li><a href="raspi.html">Raspberry Pi</a></li>
-			</ul>
-		</div>
 		<div id="links">
 			<p class="header">Links*</p>
 			<ul>
+				<li><a href="https://github.com/kiliankoe">GitHub</a></li>
 				<li><a href="http://blog.koeltzs.ch">Blog</a></li>
-				<li><a href="about.html">Ich</a></li>
+				<li><a href="about.html">Über mich</a></li>
 				<li><a href="socialhub.html">Social Media</a></li>
 				<li><a href="http://kiliankoe.github.io/cv/de/">Lebenslauf</a></li>
 				<li><a href="downloads.html">Downloads</a></li>
@@ -47,5 +58,5 @@
 			<a href="eng/index.html"><p class="header">English*</p></a>
 		</div>
 	</div>
-
+	</body>
 </html>
