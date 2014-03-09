@@ -24,6 +24,10 @@
 	text-transform: uppercase;
 }
 
+.header:after{
+	content: '*';
+}
+
 ul {
 	list-style-type: none;
 	padding-left: 0;
