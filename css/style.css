@@ -16,6 +16,10 @@
 	text-transform: none;
 }
 
+.nodisplay {
+	display: none;
+}
+
 /*==================================*/
 
 .header {
