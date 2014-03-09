@@ -16,12 +16,20 @@
 	text-transform: none;
 }
 
+.nodisplay {
+	display: none;
+}
+
 /*==================================*/
 
 .header {
 	color: red;
 	margin-top: 50px;
 	text-transform: uppercase;
+}
+
+.header:after{
+	content: '*';
 }
 
 ul {
