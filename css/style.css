@@ -37,6 +37,10 @@ ul {
 	padding-left: 0;
 }
 
+div.nodisplay ul {
+	padding-left: 20px;
+}
+
 /*==================================*/
 
 a {
@@ -44,6 +48,6 @@ a {
 	color: black;
 }
 
-#red {
+.red {
 	color: red;
 }
