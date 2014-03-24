@@ -7,6 +7,7 @@ $(document).ready(function(){
 });
 
 // konami code!
+var isPlaying = false;
 cheet('↑ ↑ ↓ ↓ ← → ← → b a', function () {
 	function getRandomColor() {
 	    var letters = '0123456789ABCDEF'.split('');
@@ -19,8 +20,11 @@ cheet('↑ ↑ ↓ ↓ ← → ← → b a', function () {
 	$('body').css('background-color',getRandomColor());
 	$('.header').css('color',getRandomColor());
 	$('div').css('font-family','Comic Sans MS');
-	var audio = new Audio('./files/hey.mp3');
-	audio.play();
+	if (!isPlaying) {
+		var audio = new Audio('./files/hey.mp3');
+		audio.play();
+		isPlaying = true;
+	}
 });
 
 // konami fail!
