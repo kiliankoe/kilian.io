@@ -19,6 +19,8 @@ cheet('↑ ↑ ↓ ↓ ← → ← → b a', function () {
 	$('body').css('background-color',getRandomColor());
 	$('.header').css('color',getRandomColor());
 	$('div').css('font-family','Comic Sans MS');
+	var audio = new Audio('./files/hey.mp3');
+	audio.play();
 });
 
 // konami fail!
