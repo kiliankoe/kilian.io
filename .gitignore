@@ -1,2 +1,8 @@
-files/
+.htaccess
+.well-known/
 bower_components/
+analytics/
+files/
+paste/
+quotes/
+tud/
