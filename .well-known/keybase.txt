@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/kilian
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://koeltzs.ch
+  * I am kilian (https://keybase.io/kilian) on keybase.
+  * I have a public key with fingerprint FB00 22C6 5CEF F251 6CD7  337E 56BF 3D02 AA3B A8A2
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "fb0022c65ceff2516cd7337e56bf3d02aa3ba8a2",
+            "host": "keybase.io",
+            "key_id": "56BF3D02AA3BA8A2",
+            "uid": "6ebf28a7601bb7bdbc48a6e6c87dee00",
+            "username": "kilian"
+        },
+        "service": {
+            "hostname": "koeltzs.ch",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1396982572,
+    "expire_in": 157680000,
+    "prev": "8ad1dd47ec6ebbcc11f7bb65de0b7e80774fafdf331226d3fffacdb213929373",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGbwMvMwMW4/M1zd0m3KY8ZTx94l8QQ7OKsU62UlJ9SqWRVrZSdCqbSMvPSU4sK
+ijLzSpSslNKSDAyMjJLNTJNT09KMTA3NklPMjY3NU03NktKMUwyMEhONkxItEo2U
+dJQy8otBOoDGJCUWp+pl5gPFgJz4zBSgqKmZk5uxi4GRo6Oxk6OFI0h9KVjCLDUp
+zcgi0dzMwDApyTwpJSnZxCLRLNUs2cI8JTXVwACksDi1KC8xNxVkeGZOZmKeUq2O
+ElCsLDM5FeRikMUw+fzUnJKqYr3kDKC+gqL8kvzk/BygeEZJSUGxFUhfSWUBSGF5
+alI81Ij4pMy8FKCngTrKUouKM/PzlKwMgSqTSzJBZhoaW5pZWhiZmhvpKKVWFGQW
+pcZnglSYmptZGAAByJ7UMqCRFokphikpJuapyUA/JSUnGxqmmSclmZmmpBokmada
+GJibm6QlpqWkGRsbGhmZpRinpaUlJqckGQEtMLI0NjdWAnmqMC9fycoE6MzEdKCR
+xZnpeYklpUWpSrWdTDIsDIxcDGysTKBoY+DiFIBFpuwT/v+hTbzrWhtW/7GpX7yl
+x5bx6aZF3/vPldSz5aVd+3/LZG9QWeyson1Tt3A7HJ/qFxC2QGnNgQthQiuV77yZ
+FHCThVequSDwXtbDUL6djLENatyGqkUce9coFCZyqpyMurrnhN3a1IXhPhp3Vln4
+c3yf9ufxf6nFO9of/Ns5oSCM4be61m9L5YUXlsmcmHBRbsKNP7lnT03kyr5V6nPU
+Y7t5vOun3XEVL5dOY5ZSFGfWdxd8L5fEUdHPZqNxSEdaUmQCx5KGnuK+SWtD17Q1
+yhcfW31rTddLOf+aZYt22Tyxstrp/+td0ueGrg+PA01Y68uWqJ/ZseBpzs43GTrq
+Oksv3E/MfnR0uoXk5APbWc96lUfNVwkoWClcE/J+5tZ2TVZmm7+e1d9zDiX86zqf
+9Xe1hcPWhfkX1eUWyd15Ifn6ygWRZ+npHhzSTtGWzvdsRT6Yi4R9nLR/rSPTRcnu
+F0L3sqUbxH6J86XkKaosXf0xRWN5coue8tUjZ4oUm+xeMvzuMH18rXlHwpPkzAft
+TOfCLrqVyMd5mjuzXG8sWr/8+Y3F294GOW63P1b58S5L9UmBKU3+berqnw5k5GQa
+BoixKtkXC2oGf1e0TUjNWfdTmZU/6s+OEz6xM91U66cH7w6aonDOqveppXDM4Rcs
+CypWP9faZh4muufUz2zfs6k6XRpHDTfJVQZlG063PxHK9lbX9sPHTgutJ1LzAQ==
+=Ut6R
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kilian
+
+==================================================================
