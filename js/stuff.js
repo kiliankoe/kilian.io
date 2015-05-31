@@ -4,6 +4,10 @@ $(document).ready(function(){
 		$(this).closest("li").find(".nodisplay").slideToggle('fast');
 		return false;
 	});
+
+	setTimeout(function(){
+		alert("Looks like you've been here for a little while, do'ya know the konami code?");
+	}, 60000);
 });
 
 // konami code!
