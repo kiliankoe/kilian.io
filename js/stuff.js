@@ -1,34 +1,31 @@
-$(document).ready(function(){
-	// slide local content like aboutme etc. on click events.
-	$(".inlinelink").on("click", function(){
-		$(this).closest("li").find(".nodisplay").slideToggle('fast');
-		return false;
-	});
-
-	setTimeout(function(){
-		alert("Looks like you've been here for a little while, do'ya know the konami code?");
-	}, 60000);
-});
+function getRandomColor() {
+    var letters = '0123456789ABCDEF'.split('');
+    var color = '#';
+    for (var i = 0; i < 6; i++ ) {
+        color += letters[Math.round(Math.random() * 15)];
+    }
+    return color;
+}
 
 // konami code!
 var isPlaying = false;
 cheet('↑ ↑ ↓ ↓ ← → ← → b a', function () {
-	function getRandomColor() {
-	    var letters = '0123456789ABCDEF'.split('');
-	    var color = '#';
-	    for (var i = 0; i < 6; i++ ) {
-	        color += letters[Math.round(Math.random() * 15)];
-	    }
-	    return color;
-	}
-	$('body').css('background-color',getRandomColor());
-	$('.header').css('color',getRandomColor());
 	$('div').css('font-family','Comic Sans MS');
 	if (!isPlaying) {
 		var audio = new Audio('./files/hey.mp3');
 		audio.play();
 		isPlaying = true;
 	}
+	$('img').css('-webkit-animation', 'spin 2s linear infinite')
+	$('img').css('-moz-animation', 'spin 2s linear infinite')
+	$('img').css('animation', 'spin 2s linear infinite')
+
+	setInterval(function(){
+		$('html').css('background-color',getRandomColor());
+		$('body').css('color',getRandomColor());
+		$('a').css('color',getRandomColor());
+		$('body').css('font-size',(Math.random()*5)+10);
+	}, 100);
 });
 
 // konami fail!
