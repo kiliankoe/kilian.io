@@ -12,13 +12,13 @@ var isPlaying = false;
 cheet('↑ ↑ ↓ ↓ ← → ← → b a', function () {
 	$('div').css('font-family','Comic Sans MS');
 	if (!isPlaying) {
-		var audio = new Audio('./files/hey.mp3');
+		var audio = new Audio('./assets/files/hey.mp3');
 		audio.play();
 		isPlaying = true;
 	}
-	$('img').css('-webkit-animation', 'spin 2s linear infinite')
-	$('img').css('-moz-animation', 'spin 2s linear infinite')
-	$('img').css('animation', 'spin 2s linear infinite')
+	$('img').css('-webkit-animation', 'spin 2s linear infinite');
+	$('img').css('-moz-animation', 'spin 2s linear infinite');
+	$('img').css('animation', 'spin 2s linear infinite');
 
 	setInterval(function(){
 		$('html').css('background-color',getRandomColor());
