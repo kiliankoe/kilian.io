@@ -6,26 +6,36 @@ function getRandomColor() {
     }
     return color;
 }
+function getLightRandomColor() {
+    var letters = '0123456789ABCDEF'.split('');
+    var color = '#';
+    for (var i = 0; i < 6; i++ ) {
+        color += letters[Math.round(Math.random() * 5)+10];
+    }
+    return color;
+}
 
 // konami code!
 var isPlaying = false;
 cheet('↑ ↑ ↓ ↓ ← → ← → b a', function () {
-	$('div').css('font-family','Comic Sans MS');
+	$('body').css('font-family','Comic Sans MS');
 	if (!isPlaying) {
-		var audio = new Audio('./files/hey.mp3');
+		var audio = new Audio('./assets/files/hey.mp3');
 		audio.play();
 		isPlaying = true;
 	}
-	$('img').css('-webkit-animation', 'spin 2s linear infinite')
-	$('img').css('-moz-animation', 'spin 2s linear infinite')
-	$('img').css('animation', 'spin 2s linear infinite')
+	$('img').css('-webkit-animation', 'spin 2s linear infinite');
+	$('img').css('-moz-animation', 'spin 2s linear infinite');
+	$('img').css('animation', 'spin 2s linear infinite');
 
 	setInterval(function(){
 		$('html').css('background-color',getRandomColor());
 		$('body').css('color',getRandomColor());
 		$('a').css('color',getRandomColor());
-		$('body').css('font-size',(Math.random()*5)+10);
+		$('p').css('font-size',(Math.random()*0.5)+16);
 	}, 100);
+    
+    $( "section" ).prepend( "<article class='center'><h1>KONAMI CODE</h1></article>" );
 });
 
 // konami fail!
