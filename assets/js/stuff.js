@@ -34,8 +34,8 @@ cheet('↑ ↑ ↓ ↓ ← → ← → b a', function () {
 		$('a').css('color',getRandomColor());
 		$('p').css('font-size',(Math.random()*0.5)+16);
 	}, 100);
-    
-    $( "section" ).prepend( "<article class='center'><h1>KONAMI CODE</h1></article>" );
+
+    $('section').prepend( "<article class='center'><h2>KONAMI MODE</h2></article>" );
 });
 
 // konami fail!
