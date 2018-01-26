@@ -42,21 +42,3 @@ cheet('↑ ↑ ↓ ↓ ← → ← → b a', function () {
 cheet('↑ ↑ ↓ ↓ ← → ← → a b', function(){
 	alert("Yeah... Try again.");
 });
-
-let cursor_iterator = 0;
-const emojis = [
-  '🎉',
-  '🦄',
-  '❤️',
-  '🚀',
-];
-
-setInterval(() => {
-    document.body.style.cursor = `url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="30" height="28" style="font-size:20px"><text y="26">${emojis[cursor_iterator]}</text></svg>'), auto`;
-
-  if (cursor_iterator === 3) {
-    cursor_iterator = 0;
-  } else {
-      cursor_iterator++;
-  }
-}, 500);
