@@ -25,7 +25,7 @@ a:hover {
     color: #2C608F;
 }
 
-img {
+img.rounded {
     border-radius: 50%;
     overflow: hidden;
     height: 15rem;
