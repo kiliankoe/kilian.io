@@ -20,7 +20,7 @@ var isPlaying = false;
 cheet('↑ ↑ ↓ ↓ ← → ← → b a', function () {
 	$('body').css('font-family','Comic Sans MS');
 	if (!isPlaying) {
-		var audio = new Audio('./assets/files/hey.mp3');
+		var audio = new Audio('./files/hey.mp3');
 		audio.play();
 		isPlaying = true;
 	}
