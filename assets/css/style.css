@@ -1,9 +1,21 @@
+:root {
+    --black: #000;
+    --white: #fff;
+    --blue: #4183C4;
+    --blue-dark: #2C608F;
+}
+
 html,
 body {
     margin: 0px;
     padding: 0px;
     width: 100vw;
     min-height: 100vh;
+}
+
+body {
+    color: var(--black);
+    background-color: var(--white);
 }
 
 section {
@@ -18,11 +30,11 @@ body {
 }
 
 a {
-    color: #4183C4;
+    color: var(--blue);
 }
 
 a:hover {
-    color: #2C608F;
+    color: var(--blue-dark);
 }
 
 img.rounded {
@@ -67,4 +79,13 @@ article {
 }
 h1 {
   font-size: 6rem;
+}
+
+@media screen and (prefers-color-scheme: dark) {
+    :root {
+        --black: #fff;
+        --white: #1a1d21;
+        --blue: #6b9cc9;
+        --blue-dark: #4183C4;
+    }
 }
