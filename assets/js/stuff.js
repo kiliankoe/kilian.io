@@ -29,7 +29,7 @@ cheet('↑ ↑ ↓ ↓ ← → ← → b a', function () {
 	$('img').css('animation', 'spin 2s linear infinite');
 
 	setInterval(function(){
-		$('html').css('background-color',getRandomColor());
+		$('body').css('background-color',getRandomColor());
 		$('body').css('color',getRandomColor());
 		$('a').css('color',getRandomColor());
 		$('p').css('font-size',(Math.random()*0.5)+16);
