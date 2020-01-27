@@ -10,7 +10,7 @@ jobs:
     name: update kilian.io
     runs-on: ubuntu-latest
     steps:
-    - uses: appleboy/ssh-action@master
+    - uses: appleboy/ssh-action@v0.0.7
       with:
         host: ${{ secrets.SSH_HOST }}
         username: ${{ secrets.SSH_USERNAME }}
