@@ -15,6 +15,11 @@ function getLightRandomColor() {
     return color;
 }
 
+// show postscriptum
+setTimeout(() => {
+	document.getElementById('postscriptum').style.display = 'block';
+}, 5000);
+
 // konami code!
 var isPlaying = false;
 cheet('↑ ↑ ↓ ↓ ← → ← → b a', function () {
