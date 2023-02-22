@@ -18,7 +18,7 @@ function getLightRandomColor() {
 // show postscriptum
 setTimeout(() => {
 	document.getElementById('postscriptum').style.display = 'block';
-}, 5000);
+}, 10000);
 
 // konami code!
 var isPlaying = false;
