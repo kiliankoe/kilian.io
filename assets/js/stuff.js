@@ -23,6 +23,8 @@ setTimeout(() => {
 // konami code!
 var isPlaying = false;
 cheet('↑ ↑ ↓ ↓ ← → ← → b a', function () {
+	$('#postscriptum').text("Nice one!");
+
 	$('body').css('font-family','Comic Sans MS');
 	if (!isPlaying) {
 		var audio = new Audio('./files/hey.mp3');
