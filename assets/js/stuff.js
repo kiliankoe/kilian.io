@@ -45,5 +45,5 @@ cheet('↑ ↑ ↓ ↓ ← → ← → b a', function () {
 
 // konami fail!
 cheet('↑ ↑ ↓ ↓ ← → ← → a b', function(){
-	alert("Yeah... Try again.");
+	alert("So close! Try again.");
 });
