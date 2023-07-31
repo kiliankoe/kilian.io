@@ -37,15 +37,15 @@
     <script>
         if (navigator.getEnvironmentIntegrity !== undefined) {
             document.querySelector('body').innerHTML =
-                `<h2>Your browser supports Google DRM!</h2>
+                `<div style="margin: 10%"><h2>Your browser supports Google DRM!</h2>
                 <a href="https://en.wikipedia.org/wiki/Web_Environment_Integrity">"Web Environment Integrity"</a> (WEI) is a Google 
-                euphemism for a <a href="https://en.wikipedia.org/wiki/Digital_rights_management">Digital Rights Management</a>.
+                euphemism for <a href="https://en.wikipedia.org/wiki/Digital_rights_management">Digital Rights Management</a>.
                 This feature is designed to only allow certified hardware, operating systems or web browsers access to websites.
                 I consider this a direct attack on the open web and on my ability to use the hard- and software I want to use.
                 <br /><br />
                 In support of a neutral and open web, this website does not function with browsers that implement the Web Environment
                 Integrity API. To access this website please use a web browser that does not implement this feature, like 
-                <a href="https://www.mozilla.org/en-US/firefox/new/">Mozilla Firefox</a> or Safari.`;
+                <a href="https://www.mozilla.org/en-US/firefox/new/">Mozilla Firefox</a> or Safari.</div>`;
         }
     </script>
 </body>
