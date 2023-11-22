@@ -26,7 +26,7 @@ var isPlaying = false;
 const easteregg = new Konami(() => {
 	$('#postscriptum').text("Nice!");
 
-	$('body').css('font-family','Comic Sans MS');
+	$('body').css('font-family','Comic Sans MS, Marker Felt, fantasy');
 	if (!isPlaying) {
 		var audio = new Audio('./files/hey.mp3');
 		audio.play();
