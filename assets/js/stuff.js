@@ -6,6 +6,7 @@ function getRandomColor() {
     }
     return color;
 }
+
 function getLightRandomColor() {
     var letters = '0123456789ABCDEF'.split('');
     var color = '#';
@@ -22,8 +23,8 @@ setTimeout(() => {
 
 // konami code!
 var isPlaying = false;
-cheet('↑ ↑ ↓ ↓ ← → ← → b a', function () {
-	$('#postscriptum').text("Nice one!");
+const easteregg = new Konami(() => {
+	$('#postscriptum').text("Nice!");
 
 	$('body').css('font-family','Comic Sans MS');
 	if (!isPlaying) {
@@ -43,9 +44,4 @@ cheet('↑ ↑ ↓ ↓ ← → ← → b a', function () {
 	}, 100);
 
     $('section').prepend( "<article class='center'><h2>KONAMI MODE</h2></article>" );
-});
-
-// konami fail!
-cheet('↑ ↑ ↓ ↓ ← → ← → a b', function(){
-	alert("So close! Try again.");
 });
